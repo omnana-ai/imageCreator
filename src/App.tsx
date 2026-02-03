@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Header from './components/Header'
 import ImageGenerator from './components/ImageGenerator'
 import HistorySidebar from './components/HistorySidebar'

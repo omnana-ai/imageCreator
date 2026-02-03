@@ -7,7 +7,6 @@ const HistorySidebar: React.FC<HistorySidebarProps> = () => {
   const { state, removeFromHistory, clearHistory, getHistoryStats } = useImageContext()
   const { history } = state
   const [isCollapsed, setIsCollapsed] = useState(false)
-  const [showStats, setShowStats] = useState(false)
   
   const stats = getHistoryStats()
 
